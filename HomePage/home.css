@@ -104,7 +104,7 @@ select{
     float:left;
     margin-top: 2%;
     margin-left: 2%;
-    box-shadow: 10px 20px 15px rgb(206, 117, 117);
+    box-shadow: 10px 20px 15px gray;
 }
 
 .tileComponent1{
@@ -140,4 +140,151 @@ select{
     color:gray;
     font-size: 15px;
     font-weight: bold;
+}
+@media screen and (max-width:1600px){
+    body{
+        background-color: skyblue;
+    }
+}
+
+@media screen and (max-width:1400px){
+    body{
+        background-color: rgb(181, 183, 184);
+    }
+    #heading{
+        margin-left: 33%;
+        margin-top: 15%;
+    }
+    #dropdown{
+        margin-left: 33%;
+        margin-top: 20%;
+    }
+    .restaurantSearch{
+        width:29%;
+    
+    }
+}
+
+
+
+@media screen and (max-width:1200px){
+    body{
+        background-color: rgb(243, 225, 242);
+    }
+    #logo{
+        margin-left: 40%;
+    }
+    #heading{
+        margin-left: 25%;
+        margin-top: 15%;
+    }
+    #dropdown{
+        margin-left: 27%;
+        margin-top: 20%;
+    }
+
+}
+
+@media screen and (max-width:1000px){
+    body{
+        background-color: rgb(226, 146, 153);
+    }
+    .tileContainer{
+        width:43%;
+    }
+    #logo{
+        margin-left: 40%;
+    }
+    #heading{
+        margin-left: 25%;
+        margin-top: 20%;
+    }
+    #dropdown{
+        margin-left: 18%;
+        margin-top: 29%;
+    }
+    select{
+        height:60px;
+        width:40%;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        font-weight: bold;
+    }
+    
+    .restaurantSearch{
+        width:45%;
+    
+    }
+    #QuickSubHeading{
+        color:black
+    }
+    .componentSubHeading{
+        color:black;
+        
+    }
+}
+
+@media screen and (max-width:800px){
+    body{
+        background-color: rgb(245, 221, 202);
+    }
+    .tileContainer{
+        width:90%;
+    }
+    #logo{
+        margin-left: 40%;
+    }
+    #heading{
+        margin-left: 20%;
+        margin-top: 23%;
+        font-size:35px
+    }
+    #dropdown{
+        margin-left: 23%;
+        margin-top: 30%;
+    }
+    select{
+        height:60px;
+        width:35%;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        font-weight: bold;
+    }
+    
+    .restaurantSearch{
+        width:35%;
+    
+    }
+}
+
+@media screen and (max-width:600px){
+    body{
+        background-color: rgb(240, 173, 195);
+    }
+    #heading{
+        margin-left: 10%;
+        margin-top: 31%;
+        font-size:34px;
+       
+    }
+    #dropdown{
+        margin-left: 15%;
+        margin-top: 45%;
+    }
+    select{
+        height:60px;
+        width:40%;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        font-weight: bold;
+    }
+    
+    .restaurantSearch{
+        width:55%;
+    
+    }
+    #QuickSubHeading{
+        color:black
+    }
+    .componentSubHeading{
+        color:black;
+        
+    }
 }

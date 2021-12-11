@@ -62,8 +62,20 @@ a{
     margin-top: -2%;
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
+.contentContainer >h1{
+    color: blueviolet;
+}
+.contentContainer >h3{
+    transition: 1s;
+    cursor: pointer;
+}
+.contentContainer >h3:hover{
+    transform: scale(1.1);
+}
+
 #head{
-    border:2px dotted gray;
+   
+    background-color:aquamarine;
 }
 .checked{
     color:red
@@ -72,5 +84,36 @@ a{
 .imgIcon{
     height:100px;
     width:100px;
+    margin-left:2%;
+    margin-top:5%;
+}
+.feature_container{
+    display: inline-block;
+    width:100%
+}
+.feature{
+    float: left;
+    margin-left:5%
+}
+.feature >p{
+    color:darkmagenta;
+}
+
+h2{
+    font-size:35px;
+    color:rgb(80, 19, 116);
+    margin-left: 22%;
+}
+
+.btn{
+    height:50px;
+    width:200px;
+    font-size:20px;
+    color:white;
+    background-color:rgb(231, 142, 24)
+}
+
+.btn-proceed{
+    background-color:rgb(182, 214, 41);
     margin-left:2%
 }
