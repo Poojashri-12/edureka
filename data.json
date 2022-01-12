@@ -1,0 +1,221 @@
+{
+  "city":[
+      {
+        "_id": 1,
+        "city_name": "Coimbatore",
+        "city": 1,
+        "country_name": "India"
+      },
+      {
+        "_id": 2,
+        "city_name": "Chennai",
+        "city": 2,
+        "country_name": "India"
+      },
+      {
+        "_id": 3,
+        "city_name": "Tirupur",
+        "city": 3,
+        "country_name": "India"
+      },
+      {
+        "_id": 4,
+        "city_name": "Nilgiris",
+        "city": 4,
+        "country_name": "India"
+      },
+      {
+        "_id": 5,
+        "city_name": "Kodaikanal",
+        "city": 5,
+        "country_name": "India"
+      },
+      {
+        "_id": 6,
+        "city_name": "Kanyakumari",
+        "city": 6,
+        "country_name": "India"
+      }
+  ],
+  "hotels":[ 
+    {
+   "_id": "4",
+   "name": "Shree Anandas",
+   "city_name": "Coimbatore",
+   "city": "1",
+   "category_id":1 
+   },
+   {
+   "_id": "1",
+   "name": "Madras Kitchen company",
+   "city_name": "Chennai",
+   "city": "3",
+   "category_id":2    
+ },
+ {
+   "_id": "3",
+   "name": "Ascot multi-cuisine",
+   "city_name": "Nilgiris",
+   "city": "4" ,
+   "category_id":4 
+ },
+ {
+   "_id": "14",
+   "name": "Taj Restaurant",
+   "city_name": "Kanyakumari",
+   "city": "6",
+   "category_id":6    
+ },
+ {
+   "_id": "12",
+   "name": "Trident Nariman Point",
+   "city_name": "Tirupur",
+   "city": "2" ,
+   "category_id":3  
+ },
+ {
+   "_id": "13",
+   "name": "Avartana",
+   "city_name": "Chennai",
+   "city": "3" ,
+   "category_id":2  
+ },
+ {
+   "_id": "4",
+   "name": "Peshawri",
+   "city_name": "Chennai",
+   "city": "3",
+   "category_id":2    
+ },
+ {
+   "_id": "15",
+   "name": "Hotel Pankaj Bhojanalaya",
+   "city_name": "Nilgiris",
+   "city": "4" ,
+   "category_id":4  
+ },
+ {
+   "_id": "7",
+   "name": "The Taj Mahal Palace",
+   "city_name": "Tirupur",
+   "city": "2",
+   "category_id":3
+ },
+ {
+   "_id": "18",
+   "name": "Tava veg Restaurant",
+   "city_name": "Kodaikanal",
+   "city": "5" ,
+   "category_id":5   
+ },
+ {
+   "_id": "19",
+   "name": "Shree Annapoorna",
+   "city_name": "Coimbatore",
+   "city": "1",
+   "category_id":1 
+ },
+ {
+   "_id": "9",
+   "name": "Hari bhavan",
+   "city_name": "Coimbatore",
+   "city": "1" ,
+   "category_id":1
+ },
+ {
+   "_id": "10",
+   "name": "Udupi International Restaurant",
+   "city_name": "Kanyakumari",
+   "city": "6",
+   "category_id":6
+ },
+ {
+   "_id": "11",
+   "name": "Madras Pavillion",
+   "city_name": "Chennai",
+   "city": "3",
+   "category_id":2   
+ },
+ {
+   "_id": "6",
+   "name": "Hotel Saravana",
+   "city_name": "Kanyakumari",
+   "city": "6",
+   "category_id":6   
+ },
+ {
+   "_id": "5",
+   "name": "Junior Kuppanna",
+   "city_name": "Coimbatore",
+   "city": "1",
+   "category_id":1
+ },
+ {
+   "_id": "42",
+   "name": "Astoria veg Restaurant",
+   "city_name": "Kodaikanal",
+   "city": "5",
+   "category_id":5   
+ },
+ {
+   "_id": "21",
+   "name": "ITC Maratha",
+   "city_name": "Tirupur",
+   "city": "2",
+   "category_id":3  
+ },
+ {
+   "_id": "31",
+   "name": "Orchard Restaurant",
+   "city_name": "Kodaikanal",
+   "city": "5",
+   "category_id":5    
+ },
+ {
+   "_id": "44",
+   "name": "Rodas - An Ecotel Hotel",
+   "city_name": "Tirupur",
+   "city": "2",
+   "category_id":3   
+ },
+ {
+   "_id": "25",
+   "name": "Orchid Square Aroma Treat Restaurant",
+   "city_name": "Nilgiris",
+   "city": "4",
+   "category_id":4   
+ },
+ {
+   "_id": "26",
+   "name": "Hotel New Imran",
+   "city_name": "Kodaikanal",
+   "city": "5",
+   "category_id":5   
+ },
+ {
+   "_id": "27",
+   "name": "The Ocean Restaurant",
+   "city_name": "Kanyakumari",
+   "city": "6" ,
+   "category_id":6   
+ }
+],
+  "category":[
+      {
+          "id":1,
+          "name":"South-indian"
+      },
+      {
+          "id":2,
+          "name":"North-indian"
+      },
+      {
+          "id":3,
+          "name":"continental"
+      },
+      {
+          "id":4,
+          "name":"Chinese"
+      }
+  ]
+}

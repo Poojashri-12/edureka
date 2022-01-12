@@ -1,0 +1,76 @@
+body{
+    margin:auto;
+    width:100%;
+}
+a{
+    text-decoration:none !important;
+    color:red
+}
+.container{
+    width:100%;
+  
+}
+#header {
+    height:50px;
+    background-color:orange;
+    width:100%;
+}
+#icon{
+    margin-left: 1%;
+    margin-top: -1%;
+    position: absolute;
+    color:rgb(211, 57, 18);
+}
+#icon >a{
+    text-decoration:none !important;
+    color:red
+}
+
+#social{
+    float:right;
+    margin-right:1;
+   
+}
+.slogo{
+    height:40px;
+    width:40px;
+}
+.media-left{
+    width:50%;
+    position: relative;
+
+}
+.media-object{
+    width:50%;
+    transition: 1s;
+    cursor:pointer;
+    margin-top: 2%;
+    
+}
+.media-object:hover{
+    transform:scale(1.1)
+}
+.media-heading {
+    font-size:30px;
+    font-style: bold;
+    color:red;
+}
+.media-heading:hover{
+    color:orchid
+
+}
+.panel{
+    background-color:orange
+}
+.panel-success{
+    background-color:orange
+}
+.panel-heading{
+    background-color:orange;
+   
+}
+.btn-success{
+    margin-left: 45%;
+    color:azure;
+    background-color:red
+}

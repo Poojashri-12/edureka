@@ -1,151 +1,213 @@
 <!DOCTYPE html>
 <html>
     <head>
+        <style>
+            body{
+                background-color:white;
+                color:black
+            }
+            .mydark{
+                background-color:black;
+                color:white
+            }
+        </style>
+        <script>
+            function changeMode(){
+                var mybody = document.body;
+                // if body have class mydark than remove else add
+                mybody.classList.toggle("mydark")
+            }
+                
+        </script>
+       
+        <script src="home.js"></script>
         <link href="home.css" rel="stylesheet" type="text/css"/>
         <title>XOMATO</title>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
         <link href="https://s3-eu-west-1.amazonaws.com/tpd/logos/5b0d62f87da92500019cea70/0x0.png" rel="icon"/>
     </head>
     <body>
         <header>
-            <div id="header">
-                <div id="icon">
-                    <h2><i><b>XOMATO</b></i></h2>
+            <div class="container"> 
+                <div id="header">
+                    <div id="icon">
+                        <h2><i><b>XOMATO</a></b></i></h2>
+                    </div>  
+                    <div id="social">      
+                        <span class="header__optionLineTwo"><a href ="../user/user.html">Sign Up
+                        </a>
+                        </span>      
+                        <span class="header__optionLineTwo"><a href ="../user/signIn.html">Sign In
+                        </a>
+                        </span>
+                        <button onclick="changeMode()">Change Mode</button>
+                        <a href="http://www.facebook.com" target="_blank">
+                            <img src="image/facebook.png" alt="Facebook" class="slogo"/>
+                        </a>
+                        <a href="https://www.instagram.com" target="_blank">
+                            <img src="image/insta.png" alt="Instagram" class="slogo"/>
+                        </a>
+                        <a href="https//www.youtube.com" target="_blank">
+                            <img src="image/youtube1.png" alt="YouTube" class="slogo"/>
+                        </a>
+                    </div>  
                 </div>
-                <div id="social">
-                    <a href="http://www.facebook.com" target="_blank">
-                        <img src="image/facebook.png" alt="Facebook" class="slogo"/>
-                    </a>
-                    <a href="https://www.instagram.com" target="_blank">
-                        <img src="image/insta.png" alt="Instagram" class="slogo"/>
-                    </a>
-                    <a href="https//www.youtube.com" target="_blank">
-                        <img src="image/youtube1.png" alt="YouTube" class="slogo"/>
-                    </a>
-                    <a href="https//www.twitter.com" target="_blank">
-                        <img src="image/twitter.jpg" alt="Twitter" class="slogo"/>
-                    </a>
-
-                </div>
-
-            </div>
-            <div id="search">
-                <div id="logo">
-                    <span><b>E!</b></span>
-                </div>
-                <div id="heading">
-                    Choose the best near you!:)
-                </div>
-                <div id="dropdown">
-                    <select>
-                        <option>---Select cities near by you!---</option>
-                        <option>Coimbatore</option>
-                        <option>Chennai</option>
-                        <option>Vellore</option>
-                        <option>Neyveli</option>
-                        <option>Salem</option>
-                    </select>
-                    <select class="restaurantSearch">
-                        <option>---Select restaurants near by your cities!---</option>
-                        <option>Annapoorna</option>
-                        <option>SMS</option>
-                        <option>Junior Kuppanna</option>
-                        <option>MC Donalds</option>
-                        <option>HariBhavan</option>
-                    </select>
-                </div>
-
-
-            </div>
-            <div id="QuickSearch">
-                <span id="QuickHeading">
-                    Quick Search
-                </span>
-                <span id="QuickSubHeading">
-                    Discover Restaurants by Delicious Meal
-                </span>
-                <div class="mainTile">
-                    <div class="tileContainer">
-                        <div class="tileComponent1">
-                            <img src="image/food-tile.png" alt="BreakFast"/>
-                        </div>
-                        <div class="tileComponent2">
-                            <div class="componentHeading">
-                                <a href="..//listing/listing.html">BreakFast</a>
-                            </div>
-                            <div class="componentSubHeading">
-                                Enjoy Your BreakFast:)
-                            </div>
-                        </div>
-                    </div>
-                    <div class="tileContainer">
-                        <div class="tileComponent1">
-                            <img src="image/nightlife.png" alt="Nightlife"/>
-                        </div>
-                        <div class="tileComponent2">
-                            <div class="componentHeading">
-                                <a href="..//listing/listing.html">NightLife</a>
-                            </div>
-                            <div class="componentSubHeading">
-                                Enjoy Your NightLife:)
-                            </div>
-                        </div>
-                    </div>
-                    <div class="tileContainer">
-                        <div class="tileComponent1">
-                            <img src="image/lunch.png" alt="Lunch"/>
-                        </div>
-                        <div class="tileComponent2">
-                            <div class="componentHeading">
-                                <a href="..//listing/listing.html">Lunch</a>
-                            </div>
-                            <div class="componentSubHeading">
-                                Enjoy Your Lunch:)
-                            </div>
-                        </div>
-                    </div>
-                    <div class="tileContainer">
-                        <div class="tileComponent1">
-                            <img src="image/drinks.png" alt="drinks"/>
-                        </div>
-                        <div class="tileComponent2">
-                            <div class="componentHeading">
-                                <a href="..//listing/listing.html">Drinks</a>
-                            </div>
-                            <div class="componentSubHeading">
-                                Enjoy Your Drinks:)
-                            </div>
-                        </div>
-                    </div>
-                    <div class="tileContainer">
-                        <div class="tileComponent1">
-                            <img src="image/sacks.png" alt="snacks"/>
-                        </div>
-                        <div class="tileComponent2">
-                            <div class="componentHeading">
-                                <a href="..//listing/listing.html">Snacks</a>
-                            </div>
-                            <div class="componentSubHeading">
-                                Enjoy Your Snacks:)
-                            </div>
-                        </div>
-                    </div>
-                    <div class="tileContainer">
-                        <div class="tileComponent1">
-                            <img src="image/dinner.png" alt="dinner"/>
-                        </div>
-                        <div class="tileComponent2">
-                            <div class="componentHeading">
-                                <a href="..//listing/listing.html">Dinner</a>
-                            </div>
-                            <div class="componentSubHeading">
-                                Enjoy Your dinner:)
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
+            </div>      
         </header>
+                <div id="search" class="container">
+                    
+                    <div id="image" class="carousel slide" data-ride="carousel">
+                        <ol class="carousel-indicators">
+                            <li data-target="#image" data-slide-to="0" class="active"></li>
+                            <li data-target="#image" data-slide-to="1"></li>
+                            <li data-target="#image" data-slide-to="2"></li>
+                        </ol>
+                        <div class="carousel-inner">
+                            <div class="item active"  style="height:400px;
+                            background-image:url('image/food-wallpaper.png');
+                            background-repeat: no-repeat;
+                            background-size: 100% 400px;">
+                                
+                            </div>
+                            <div class="item"  style="height:400px;
+                            background-image:url('https://assets-global.website-files.com/5ceda27bc61ed23757d6d8d9/5edc5583344c254366df0396_UZUo_YUQ6tf-R5n5saaWkjGSCSJcmjr92WLkwFx_qOVvFgzPN9tlbLC4ibUL4Rjl_SKGU6RUdC_w2X8M37F4NlvHHphsGCbKFZVQikqC-Ovhgt4m-rNLexIQ3puGWjyRTf_Eh5MB.png');
+                            background-repeat: no-repeat;
+                            background-size: 100% 400px;">
+
+                            </div>
+                            <div class="item"  style="height:400px;
+                            background-image:url('https://www.adrianharrison.com.au/wp-content/uploads/2018/09/enticing-steak-sandwich-photography-1080x675.jpg');
+                            background-repeat: no-repeat;
+                            background-size: 100% 400px;">
+                            
+                            </div>
+                        </div>
+                        <a class="left carousel-control" href="#image" data-slide="prev">
+                            <span class="glyphicon glyphicon-chevron-left"></span>
+                        </a>
+                        <a class="right carousel-control" href="#image" data-slide="next">
+                            <span class="glyphicon glyphicon-chevron-right"></span>
+                        </a>
+                    </div>                
+                    <div id="logo">
+                        <span><b>E!</b></span>
+                    </div>
+                    <div id="heading">
+                        Choose the best near you!:)
+                        <button id="coupon" onclick="closeDiv()"></button>
+                    </div>
+                     
+                    <div id="dropdown">
+                        <select id="city" onChange="getHotel()">
+                            <option>----SELECT CITY----</option>
+                        </select>
+                        <select class="restaurantSelect" id="hotels">
+                            <option>----SELECT RESTAURANTS----</option>
+                        </select>
+                    </div>
+                                     
+                </div>
+            </div>
+            <div class="container">
+                <div id="QuickSearch">
+                    <span id="QuickHeading">
+                        Quick Search
+                    </span>
+                    <span id="QuickSubHeading">
+                        Discover Restaurants by Delicious Meal
+                    </span>
+                    <div class="mainTile">
+                        <div class="tileContainer">
+                            <div class="tileComponent1">
+                                <img src="image/food-tile.png" alt="BreakFast"/>
+                            </div>
+                            <div class="tileComponent2">
+                                <div class="componentHeading">
+                                    <a href="..//listing/listing.html">BreakFast</a>
+                                </div>
+                                <div class="componentSubHeading">
+                                    Enjoy Your BreakFast:)
+                                </div>
+                            </div>
+                        </div>
+                        <div class="tileContainer">
+                            <div class="tileComponent1">
+                                <img src="image/nightlife.png" alt="Nightlife"/>
+                            </div>
+                            <div class="tileComponent2">
+                                <div class="componentHeading">
+                                    <a href="..//listing/listing.html">NightLife</a>
+                                </div>
+                                <div class="componentSubHeading">
+                                    Enjoy Your NightLife:)
+                                </div>
+                            </div>
+                        </div>
+                        <div class="tileContainer">
+                            <div class="tileComponent1">
+                                <img src="image/lunch.png" alt="Lunch"/>
+                            </div>
+                            <div class="tileComponent2">
+                                <div class="componentHeading">
+                                    <a href="..//listing/listing.html">Lunch</a>
+                                </div>
+                                <div class="componentSubHeading">
+                                    Enjoy Your Lunch:)
+                                </div>
+                            </div>
+                        </div>
+                        <div class="tileContainer">
+                            <div class="tileComponent1">
+                                <img src="image/drinks.png" alt="drinks"/>
+                            </div>
+                            <div class="tileComponent2">
+                                <div class="componentHeading">
+                                    <a href="..//listing/listing.html">Drinks</a>
+                                </div>
+                                <div class="componentSubHeading">
+                                    Enjoy Your Drinks:)
+                                </div>
+                            </div>
+                        </div>
+                        <div class="tileContainer">
+                            <div class="tileComponent1">
+                                <img src="image/sacks.png" alt="snacks"/>
+                            </div>
+                            <div class="tileComponent2">
+                                <div class="componentHeading">
+                                    <a href="..//listing/listing.html">Snacks</a>
+                                </div>
+                                <div class="componentSubHeading">
+                                    Enjoy Your Snacks:)
+                                </div>
+                            </div>
+                        </div>
+                        <div class="tileContainer">
+                            <div class="tileComponent1">
+                                <img src="image/dinner.png" alt="dinner"/>
+                            </div>
+                            <div class="tileComponent2">
+                                <div class="componentHeading">
+                                    <a href="..//listing/listing.html">Dinner</a>
+                                </div>
+                                <div class="componentSubHeading">
+                                    Enjoy Your dinner:)
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        
         <hr/>
+        <script>
+            window.onload=getCity()
+            window.onload=test()
+       </script>
+    
+            
         <footer>
             <h3 style="text-align:center">&copy; Pooja Shri </h3>
         </footer>
