@@ -1,0 +1,362 @@
+
+body{
+    margin:auto;
+    width:100%;
+    padding: 0%;
+    margin:0%
+}
+a{
+    text-decoration:none;
+}
+#header {
+    height:50px;
+    background-color:orange;
+    width:100%;
+}
+#icon{
+    margin-left: 1%;
+    margin-top: -1%;
+    position: absolute;
+    color:rgb(211, 57, 18);
+}
+.header__optionLineOne >a{
+    height:50px;
+    font-size:20px;
+    color: red;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+    margin-top:-5%;
+    text-decoration: none !important;
+    border: 2px solid orange;
+    margin-right: 2%;
+    margin-left:-50%;
+}
+.header__optionLineTwo >a{
+    height:50px;
+    font-size:20px;
+    color: red;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+    margin-top:-5%;
+    text-decoration: none !important;
+    border: 2px solid orange
+}
+#social{
+    float:right;
+    margin-right:1;
+   
+}
+
+.slogo{
+    height:40px;
+    width:40px;
+}
+#logo{
+    height:150px;
+    width:150px;
+    background-color: white;
+    border-radius: 50%;
+    margin-left: 45%;
+    margin-top: -30%;
+    position: absolute;
+    font-size:60px;
+    color:#df7839;
+    animation: movelogo 20s infinite;
+}
+@keyframes movelogo {
+    0% {margin-left: 45%;}
+    20% {margin-left: 35%;}
+    60% {margin-left: 55%;}
+    85% {margin-right: 45%;}
+    100% {margin-left: 45%;}
+}
+#logo > span{
+    margin-top:18%;
+    margin-left:30%;
+    position:absolute;
+}
+#heading{
+    margin-left: 33%;
+    margin-top: 0%;
+    position: absolute;
+    font-size:40px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color:rgb(207, 226, 31)
+}
+#heading:hover{
+    color:rgb(154, 223, 219);
+    transition: 1s;
+    cursor: pointer;
+    transform: scale(1.1);
+
+}
+
+
+#dropdown{
+    height:60px;
+    width:70%;
+    margin-left:29%;
+    margin-top:17%;
+    position: absolute;
+}
+select{
+    height:60px;
+    width:25%;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+}
+
+.restaurantSearch{
+    width:35%;
+
+}
+#QuickSearch{
+    width:80%;
+    margin-left:10%;
+    margin-top:30%;
+    display: inline-block
+}
+
+#QuickHeading{
+    display:block;
+    color:#ac2e31;
+    font-size:30px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+    margin-left: 2%;
+    margin-top: -35%;
+}
+#QuickHeading:hover{
+    color:blueviolet;
+}
+#coupon{
+    height:300px;
+    width:800px;
+    margin-left:-30%;
+    background-image:url("https://cdn.static-zoutons.com/images/originals/blog/ZomatoNewUserOffers03_1595005611.png");
+    visibility: hidden;
+    z-index: 100;
+    
+}
+
+#QuickSubHeading{
+    line-height: 2;
+    color:gray;
+    font-size:20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+    margin-left: 2%;
+    transition: 1s;
+    cursor: pointer;
+}
+#QuickSubHeading:hover{
+    color:rgb(1, 19, 18);
+    transform: scale(1.1);
+}
+.tileContainer{
+    height:180px;
+    width:30%;
+    float:left;
+    margin-top: 2%;
+    margin-left: 2%;
+    box-shadow: 10px 20px 15px gray;
+    animation: dance 10s infinite
+
+}
+
+@keyframes dance {
+    0% {transform:rotate(-5deg)}
+    25% {transform:rotate(0deg)}
+    50% {transform:rotate(5deg)}
+    75% {transform:rotate(0deg)}
+    100% {transform:rotate(-5deg)}
+}
+.tileComponent1{
+    width:50%;
+    float:left;
+    height:180px;
+}
+
+.tileComponent1 >img{
+    width:100%;
+    height:180px;
+}
+
+.tileComponent2{
+    width:40%;
+    float: left;
+    height:100px;
+    margin-left: 5%;
+    margin-top: 12%;
+}
+
+.componentHeading{
+    color:#ac2e31;
+    font-size: 25px;
+    font-weight: bold;
+}
+.componentHeading >a{
+    text-decoration: none !important;
+    color:#ac2e31;
+}
+
+.componentSubHeading{
+    color:gray;
+    font-size: 15px;
+    font-weight: bold;
+   
+   
+}
+.componentSubHeading:hover{
+    color:rgb(56, 201, 37);
+}
+@media screen and (max-width:1600px){
+    body{
+        background-color: skyblue;
+    }
+}
+
+@media screen and (max-width:1400px){
+    body{
+        background-color: rgb(181, 183, 184);
+    }
+    #heading{
+        margin-left: 33%;
+        margin-top: -15%;
+    }
+    #dropdown{
+        margin-left: 33%;
+        margin-top: -10%;
+    }
+    .restaurantSearch{
+        width:29%;
+    
+    }
+}
+
+
+
+@media screen and (max-width:1200px){
+    body{
+        background-color: rgb(243, 225, 242);
+    }
+    #logo{
+        margin-top: -35%;
+    }
+    #heading{
+        margin-left: 25%;
+        margin-top: -20%;
+    }
+    #dropdown{
+        margin-left: 27%;
+        margin-top: -15%;
+    }
+
+}
+
+@media screen and (max-width:1000px){
+    body{
+        background-color: rgb(226, 146, 153);
+    }
+    .tileContainer{
+        width:43%;
+    }
+    #logo{
+        margin-top: -45%;
+    }
+    #heading{
+        margin-left: 25%;
+        margin-top: -25%;
+    }
+    #dropdown{
+        margin-left: 18%;
+        margin-top: -19%;
+    }
+    select{
+        height:60px;
+        width:40%;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        font-weight: bold;
+    }
+    
+    .restaurantSearch{
+        width:45%;
+    
+    }
+    #QuickSubHeading{
+        color:black
+    }
+    .componentSubHeading{
+        color:black;
+        
+    }
+}
+
+@media screen and (max-width:800px){
+    body{
+        background-color: rgb(245, 221, 202);
+    }
+    .tileContainer{
+        width:90%;
+    }
+    #logo{
+        margin-top: -50%;
+    }
+    #heading{
+        margin-left: 20%;
+        margin-top: -30%;
+        font-size:35px
+    }
+    #dropdown{
+        margin-left: 23%;
+        margin-top: -20%;
+    }
+    select{
+        height:60px;
+        width:35%;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        font-weight: bold;
+    }
+    
+    .restaurantSearch{
+        width:35%;
+    
+    }
+}
+
+@media screen and (max-width:600px){
+    body{
+        background-color: rgb(240, 173, 195);
+    }
+    #logo{
+        margin-top: -70%;
+    }
+    #heading{
+        margin-left: 10%;
+        margin-top:-35%;
+        font-size:34px;
+       
+    }
+    #dropdown{
+        margin-left: 15%;
+        margin-top: -20%;
+    }
+    select{
+        height:60px;
+        width:40%;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        font-weight: bold;
+    }
+    
+    .restaurantSearch{
+        width:55%;
+    
+    }
+    #QuickSubHeading{
+        color:black
+    }
+    .componentSubHeading{
+        color:black;
+        
+    }
+}
