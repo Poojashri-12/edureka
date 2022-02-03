@@ -18,6 +18,8 @@ a{
 #icon >h2 >i >b >a {
     text-decoration:none !important;
     color:rgb(211, 57, 18);
+    margin-top:-7%;
+    
 }
 #social{
     float:right;
