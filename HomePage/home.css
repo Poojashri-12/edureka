@@ -137,7 +137,7 @@ select{
 }
 #coupon{
     height:300px;
-   width: 800px;
+   
     margin-left:10%;
     background-image:url("https://cdn.static-zoutons.com/images/originals/blog/ZomatoNewUserOffers03_1595005611.png");
     visibility: hidden;
@@ -148,7 +148,7 @@ select{
 }
 .closes{
     margin-top:-20%;
-    margin-left:97%;
+    margin-right: -97%;
     color:azure
 }
 
